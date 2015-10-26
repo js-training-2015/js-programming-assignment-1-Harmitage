@@ -1,0 +1,9 @@
+function solution(A,B,C)
+  {
+    return Math.floor((B-A)/C)+1
+  };
+
+function solution2(A,B)
+  {
+    return Math.max(Math.max(A,B),A^B)
+  };
